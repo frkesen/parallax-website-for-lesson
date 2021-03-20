@@ -8,14 +8,12 @@ body, html {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666;
     height: 100%;
 }
 
 .section--img1 {
     background-image: url('./img/Image1.jpg');
     min-height: 100%;
-    width: 100%;
 }
 
 .section--img2 {
@@ -35,6 +33,7 @@ body, html {
 
 .section--light {
     background-color: #f4f4f4;
+    color: #666;
 }
 
 .section--dark {
@@ -71,4 +70,13 @@ body, html {
 
 .heading-container__span--trans {
     background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .section--img1, .section--img2, .section--img3 {
+        background-attachment: scroll;
+    }
+    .heading-container {
+        font-size: 16px;
+    }
 }
