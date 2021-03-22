@@ -78,13 +78,13 @@ body, html {
 
 }
 
-.heading-container__span {
+.heading-container__heading {
     background-color: #111;
     color: #fff;
     padding: 20px;
 }
 
-.heading-container__span--trans {
+.heading-container__heading--trans {
     background-color: transparent;
 }
 
