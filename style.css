@@ -69,10 +69,11 @@ body, html {
     /* position */
     position: absolute;
     top: 50%;
+    /* left: 35%; */
     width: 100%;
 
     text-align: center;
-    font-size: 27px;
+    /* font-size: 27px; */
     letter-spacing: 8px;
     text-transform: uppercase;
 
@@ -82,6 +83,10 @@ body, html {
     background-color: #111;
     color: #fff;
     padding: 20px;
+    /* font-size: 27px; */
+    font-size: 1.687em;
+    display: inline;
+    font-weight: 400;
 }
 
 .heading-container__heading--trans {
@@ -89,7 +94,7 @@ body, html {
 }
 
 @media(max-width:720px) {
-    .heading-container {
+    .heading-container__heading {
         font-size: 20px;
     }
 }
@@ -98,7 +103,7 @@ body, html {
     .section--img1, .section--img2, .section--img3 {
         background-attachment: scroll;
     }
-    .heading-container {
+    .heading-container__heading {
         font-size: 16px;
     }
 }
